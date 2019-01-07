@@ -15,7 +15,7 @@ public class FileReaderTest {
 		InputStream is = null; //바이트단위
 		
 		try {
-		   in = new FileReader("123.txt");
+		   in = new FileReader("123.txt"); //기본 utf-8로함 그래서 utf8로되어있는 파일을 읽어와야겠지
 		   
 		    int count = 0; //몇번읽는지
 			int data = -1; 			
